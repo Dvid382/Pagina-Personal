@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+    background-color:lightcyan;
+}
+.datos-per
+{
+    max-width: min-content;
+    background-color:lightblue;
+    border-radius: 0 7% 7% 0;
+}
+.seccion
+{
+    background-color:aliceblue;
+    border-radius: 2%;
+}
+.cabecera
+{
+    background-color: #000000;
+} 
+li
+{
+    display: inline;
+}
+#logo
+{
+    max-width: 3rem;
+    border-radius: 40% 40% 40% 40%
+}
+.contenedor-exp
+{
+    background-image: url(img/background.jpg);
+	background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	z-index: 1;
+}
+
+.inf
+{
+    max-width: min-content;
+    max-height: min-content;
+}
+#cont
+{
+    font-size: 2em;
+}
+
+/*Diseños para celulares*/
+@media screen and (min-width: 300px)
+{
+    .list
+    {
+        font-size: 0.6rem;
+        text-decoration: none;
+        cursor:pointer;
+        width: auto;
+        padding: 0.2em;
+        color: #fffbfb;;
+        font-weight: bold;
+        transition: .6s ease;
+        border-radius: 0 3px 3px 0;
+        z-index:10;
+    }
+    .list:hover
+    {
+    color: #f2f2f2;
+    background-color: rgba(0, 221, 255, 0.8);
+    }
+    img
+    {
+        max-width: 6rem;
+        border-radius: 15%;
+    }
+    .exp
+    {
+        
+        max-width: min-content;
+        max-height: min-content;
+        color: #2bffdc;
+        text-shadow:-1px 0 #000000, 1px 0 #000000, 0 1px #000000, 0 -1px #000000;
+    }
+    .html, .css, .js, .php, .sql, .boots, .lara, .ang, .git, .gh, .ph, .il
+    {
+        max-width: 200%; 
+        max-height: min-content;
+        margin-top: 3%;
+    }
+    .html, .boots
+    {
+        position:absolute;
+        margin-left: 1%;
+    }
+    .css, .lara
+    {
+        position:absolute;
+        margin-left: 35%;
+    }
+    .js, .ang
+    {
+        position:absolute;
+        margin-left: 68%;
+    }
+    
+    .php, .git, .ph
+    {
+        position:absolute;
+        margin-left: 10%;
+    }
+    .sql, .gh, .il
+    {
+        position:absolute;
+        margin-left: 56%;
+    }
+    i
+{
+    font-size: 1rem;
+}
+    .contenedor-exp, .datos-per, .seccion, .derechos
+    {
+        float:none;
+        width:100%;
+    }
+    .derechos
+{
+    position: relative;
+    margin-top: 10%;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: #f2f2f2;
+    border-radius: 0 4% 0 4%;
+    background-color: rgb(0, 0, 0);
+}
+}
+/* Diseño para tabletas */ 
+@media screen and (min-width: 700px)
+{
+    #logo
+{
+    max-width: 6rem;
+}
+    .list
+    {
+        font-size: 1.2rem;
+        text-decoration: none;
+        cursor:pointer;
+        width: auto;
+        padding: 0.2em;
+        color: #fffbfb;;
+        font-weight: bold;
+        transition: .6s ease;
+        border-radius: 0 3px 3px 0;
+        z-index:10;
+    }
+    .list:hover
+    {
+    color: #f2f2f2;
+    background-color: rgba(0, 221, 255, 0.8);
+    }
+    img
+    {
+        max-width: 8rem;
+        border-radius: 15%;
+    }
+    .exp
+    {
+        max-width: min-content;
+        max-height: min-content;
+        color: #2bffdc;
+        text-shadow:-1px 0 #000000, 1px 0 #000000, 0 1px #000000, 0 -1px #000000;
+    }
+    .front, .frame
+    {
+        margin-left: 2%;
+    }
+    .html, .css, .js, .php, .sql, .boots, .lara, .ang, .git, .gh, .ph, .il
+    {
+        max-width: 200%; 
+        max-height: min-content;
+        margin-top: 2%;
+    }
+    .html, .boots
+    {
+        position:absolute;
+        margin-left: 4%;
+    }
+    .css, .lara
+    {
+        position:absolute;
+        margin-left: 38%;
+    }
+    .js, .ang
+    {
+        position:absolute;
+        margin-left: 70%;
+    }
+
+    .php, .git, .ph
+    {
+        position:absolute;
+        margin-left: 20%;
+    }
+    .sql, .gh, .il
+    {
+        position:absolute;
+        margin-left: 55%;
+    }
+
+    i
+{
+    font-size: 2rem;
+}
+    .seccion
+    {
+        float:right
+        ;
+		width:70%;
+    }
+
+    .datos-per
+    {
+        float:left;
+        width:50%;
+    }
+    .derechos
+{
+    position: relative;
+    margin-top: 70%;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: #f2f2f2;
+    border-radius: 0 4% 0 4%;
+    background-color: rgb(0, 0, 0);
+}
+}
+
+/*Diseño para pc*/
+@media screen and (min-width: 1020px)
+{
+    #logo
+    {
+        max-width: 8rem;
+    }
+        .list
+        {
+            font-size: 1.5rem;
+            text-decoration: none;
+            cursor:pointer;
+            width: auto;
+            padding: 0.2em;
+            color: #fffbfb;;
+            font-weight: bold;
+            transition: .6s ease;
+            border-radius: 0 3px 3px 0;
+            z-index:10;
+        }
+        .list:hover
+        {
+        color: #f2f2f2;
+        background-color: rgba(0, 221, 255, 0.8);
+        }
+    img
+    {
+        max-width: 8rem;
+        border-radius: 15%;
+    }
+    .exp
+    {
+        
+        max-width: min-content;
+        max-height: min-content;
+        color: #2bffdc;
+        text-shadow:-1px 0 #000000, 1px 0 #000000, 0 1px #000000, 0 -1px #000000;
+    }
+    .front, .frame
+    {
+        margin-left: 2%;
+    }
+    .html, .css, .js, .php, .sql, .boots, .lara, .ang, .git, .gh, .ph, .il
+    {
+        max-width: 200%; 
+        max-height: min-content;
+        margin-top: 2%;
+    }
+    .html, .boots
+    {
+        position:absolute;
+        margin-left: 4%;
+    }
+    .css, .lara
+    {
+        position:absolute;
+        margin-left: 38%;
+    }
+    .js, .ang
+    {
+        position:absolute;
+        margin-left: 70%;
+    }
+
+    .php, .git, .ph
+    {
+        position:absolute;
+        margin-left: 20%;
+    }
+    .sql, .gh, .il
+    {
+        position:absolute;
+        margin-left: 55%;
+    }
+    i
+{
+    font-size: 3rem;
+}
+    .seccion
+    {
+        float:right;
+        width:77%;
+    }
+    
+    .datos-per
+    {
+        float:left;
+        width:30%;
+    }
+    .derechos
+    {
+        position: relative;
+        margin-top: 43%;
+        font-size: 1.3em;
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        color: #f2f2f2;
+        border-radius: 0 4% 0 4%;
+        background-color: rgb(0, 0, 0);
+    }
+}
